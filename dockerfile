@@ -10,3 +10,4 @@ RUN cp -rvf rock/* .
 RUN rm -rf rock rock.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
+
